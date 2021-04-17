@@ -38,3 +38,11 @@ li {
 li, .it {
     font-weight: bold;
 }
+
+.linguagem :nth-child(-n+3) {
+    color: blue;
+}
+
+.java {
+    background-color: pink;
+}
