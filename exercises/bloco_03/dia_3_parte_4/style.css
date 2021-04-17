@@ -35,7 +35,7 @@ li {
     font-size: 20px;
 }
 
-li, .it {
+.it {
     font-weight: bold;
 }
 
@@ -47,6 +47,26 @@ li, .it {
     background-color: pink;
 }
 
-.destaque:hover {
+div li:hover {
     font-weight: bold;
+}
+
+div:hover li:nth-of-type(1){
+    color: orange;
+}
+
+div:hover li:nth-of-type(2){
+    color: green;
+}
+
+div:hover li:nth-of-type(3){
+    color: black;
+}
+
+div:hover li:nth-of-type(4){
+    color: yellow;
+}
+
+div:hover li:nth-of-type(5){
+    color: green;
 }
