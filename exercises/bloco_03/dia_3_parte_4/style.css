@@ -46,3 +46,7 @@ li, .it {
 .java {
     background-color: pink;
 }
+
+.destaque:hover {
+    font-weight: bold;
+}
