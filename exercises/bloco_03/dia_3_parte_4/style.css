@@ -20,3 +20,13 @@ ol :nth-child(even) {
 ol .primo {
     text-transform: uppercase;
 }
+
+.header {
+    color: red;
+}
+
+.italico {
+    color: red;
+    font-size: 40px;
+    border: 1px solid black;
+}
