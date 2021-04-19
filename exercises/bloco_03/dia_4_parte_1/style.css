@@ -34,3 +34,22 @@ h1 {
   .sidebyside {
       display: inline-block;
 }
+
+h3 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.ulSecundaria, li {
+    text-align: center;
+    display: inline-block;       
+}
+
+.li2 {
+    margin-left: 250px;
+}
+
+.noLeft {
+    margin-left: 0px;
+}
