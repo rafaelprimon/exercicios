@@ -1,0 +1,24 @@
+div{
+    text-align: center;
+
+} 
+
+li{
+    line-height: 1.5;
+}
+
+li:hover{
+    background-color: aqua;
+}
+
+li:active {
+    background-color: white;
+}
+
+ul {
+    line-height: 1.5;
+}
+
+ol, ul {
+    list-style: none;
+}

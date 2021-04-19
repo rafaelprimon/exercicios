@@ -1,0 +1,50 @@
+body {
+    background-color: aqua;
+}
+
+header { 
+  background-color: lightgreen;  
+  padding-top: 30px;    
+}
+
+h1 {
+    text-align: center;
+}
+
+.nav li {
+    padding-top: 70px;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 200px;
+}
+
+.nav li:hover {
+    font-size: 25px;
+    font-style: bold;
+    }
+
+h2 {
+    padding-top: 30px;
+    text-align: center;
+
+}
+
+h3 {
+    text-align: center;
+    
+}
+
+.imgTexto {
+   max-width: 300px;
+   text-align: left;
+}
+
+p {
+    float: right;
+    text-align: justify right;
+    padding-left: 350px;
+}
+
+.imgTexto p{
+    display: inline-block;
+}
