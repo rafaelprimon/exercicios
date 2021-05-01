@@ -71,6 +71,12 @@
         const elementDivInDiv = document.createElement('div');
         elementDivInDiv.className = 'center-content';
         elementDiv.appendChild(elementDivInDiv);
+    
+    // 4 - Adicione a tag p como filho do div criado no passo 3 e coloque algum texto;
+
+    const elementParagraph = document.createElement('p');
+    elementParagraph.innerHTML = 'Algum texto';
+    elementDivInDiv.appendChild(elementParagraph);
 
     </script>
   </body>
