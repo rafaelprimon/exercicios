@@ -73,10 +73,16 @@
         elementDiv.appendChild(elementDivInDiv);
     
     // 4 - Adicione a tag p como filho do div criado no passo 3 e coloque algum texto;
+        const elementParagraph = document.createElement('p');
+        elementParagraph.innerHTML = 'Algum texto';
+        elementDivInDiv.appendChild(elementParagraph);
+    
+    // 5 - Adicione a tag div com a classe left-content como filho da tag div criada no passo 2;
+        const elementLeftDiv = document.createElement('div');
+        elementLeftDiv.className = 'left-content';
+        elementDiv.appendChild(elementLeftDiv);
+        
 
-    const elementParagraph = document.createElement('p');
-    elementParagraph.innerHTML = 'Algum texto';
-    elementDivInDiv.appendChild(elementParagraph);
 
     </script>
   </body>
