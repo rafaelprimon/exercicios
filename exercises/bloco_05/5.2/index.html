@@ -116,6 +116,12 @@
         const title = document.getElementsByTagName('h1')[0];
         title.className = 'title';
     
+    // 2 - Adicione a classe description nas 3 tags h3 criadas;
+        const elementsH3 = document.getElementsByTagName('h3');
+        for (let index = 0; index < 3; index += 1) {
+            elementsH3[index].className = 'description';
+        }
+    
 
     </script>
   </body>
