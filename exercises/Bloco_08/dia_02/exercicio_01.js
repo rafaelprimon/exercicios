@@ -74,3 +74,11 @@ function authorBornIn1947() {
 function authorGenreTerror () {
     return books.find((book) => book.genre === 'Terror').id;
 }
+
+console.log(authorGenreTerror());
+
+function bookName () {
+    return books.find((book) => book.releaseYear === 1954).name;
+}
+
+console.log(bookName())
